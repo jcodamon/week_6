@@ -156,6 +156,16 @@ print(VTotal)
 
 
 sample_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(sample_list[0])
+print(sample_list[1])
+print(sample_list[2])
+
+#extract the 8 out of the list
+print(sample_list[2] [1])
+print(sample_list[1] [2])
+print(sample_list[0] [2])
+print(sample_list[2] [0])
+
 # get length of the list
 print(len(sample_list)) # Output: 3
 #this is called a nested list
@@ -164,18 +174,23 @@ print(len(sample_list)) # Output: 3
 
 sample_list_of_fruit = {"fruits": ["apple", "banana", "cherry"]}
 # Extract and print the second fruit from the list
-
+print(sample_list_of_fruit["fruits"] [1])
+print(sample_list_of_fruit["fruits"] [2])
+print(sample_list_of_fruit["fruits"] [0])
 
 sample_list_of_lists = {"lists": [[1, 2, 3], [4, 5, 6], [7, 8, 9]]}
 # Extract and print the third element from the second list
-
-
-
+print(sample_list_of_lists["lists"] [1] [2])
+print(sample_list_of_lists["lists"] [2] [2])
+print(sample_list_of_lists["lists"] [0] [-1])
 
 sample_list_of_dicts = {"dicts": [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 30}, {"name": "Charlie", "age": 35}]}
 # Extract and print the age of the second person
-
-
+print(sample_list_of_dicts["dicts"] [1] ["age"])
+#get the age
+print(sample_list_of_dicts["dicts"] [2] ["name"])
+#get the name
+print(sample_list_of_dicts["dicts"] [0] ["name"])
 
 
 
